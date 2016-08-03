@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+
+.container {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#cities-input {
+    width: 500px;
+}
+
+#error-message {
+    padding-top: 10px;
+    color: red;
+}
+
+#cities-list-container {
+    margin: 0 auto;
+    width: 200px;
+}
+
+#cities-list {
+    list-style: none;
+    width: 200px;
+    font-size: 80%;
+}
+
+#cities-list li {
+    text-align: left;
+}

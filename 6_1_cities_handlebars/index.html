@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список городов, полученный при помощи JSON</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+    Фильтрация списка
+    <input id="cities-input" type="text">
+</div>
+
+<h3>Список городов, полученный при помощи JSON</h3>
+<div id="error-message"></div>
+<ol id="cities-list"></ol>
+
+<script id="entry-template" type="text/x-handlebars-template">
+    {{#each this}}
+      <li>{{name}}</li>
+    {{/each}}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
