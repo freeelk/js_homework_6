@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#friends-list li {
+    width: 500px;
+    height: 60px;
+    margin: 5px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    float: none;
+}
+
+.friend-img {
+    border-radius: 50%;
+    margin: 5px;
+    margin-right: 20px;
+    float: left;
+}
+
+.friend-name {
+    font-size: 120%;
+    font-weight: bold;
+    color: yellow;
+}
+
+.friend-data-container {
+    color: white;
+}
+
+.friend-data {
+    font-weight: bold;
+    font-style: italic;
+}
